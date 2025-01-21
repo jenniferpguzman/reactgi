@@ -70,13 +70,13 @@ export default class App extends Component {
       people:[
         {name: 'Jennifer Guzman', phone: '704-444-4444', dob:'February 13th 2001'},
         {name: 'Antonio Garcia', phone:'980-800-8000', dob:'October 25th 2000'},
-        {name:'Jane Doe', phone: '980-444-4444', dob: 'April 1st 1999'}
+        {name:'Fernando Lopez', phone: '980-444-4444', dob: 'September 1st 1999'}
       ],
     };
   }
   render(){
     return (
-      <div>
+      <div className="basic_info">
      <h1>Basic Information</h1>
      {this.state.people.map((person,index) => (
       <BasicInfo key={index} person={person} /> 

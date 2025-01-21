@@ -1,13 +1,33 @@
+body{
+background-color: beige;
+font-family: 'Courier New', Courier, monospace;
+margin:50px;
+}
+
+
+.basic_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:pink;
+}
+
+
 .person_info{
 display:flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: blue;
+border-radius: 15px;
+border: 1px solid black;
+margin:20px;
+padding:20px;
+background-color: lightpink;
 }
 
 
 
 p{
-    color:red;
+    color:black;
 }
